@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Descargar el codigo del repositorio
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Preparar Java 21 (Temurin) y cache de Maven
         uses: actions/setup-java@v4
